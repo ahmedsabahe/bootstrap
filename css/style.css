@@ -1,0 +1,150 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    background-color: #19283f;
+}
+.navbar .bars i{
+    color: #fff;
+    font-size: 30px;
+}
+.navbar .navbar-nav .nav-link{
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px ;
+}
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover{
+    color: #33d1cc;
+}
+.navbar .icon {
+    color: #33d1cc;
+    border-left: 1px solid #33d1cc;
+padding: 5px 25px 10px 15px;
+}
+.main-btn{
+    padding: 7px 20px ;
+    font-weight: bold;
+}
+.landding{
+    background-color: #19283f;
+    min-height: calc(100vh - 75px);
+}
+.Features{
+    min-height: calc(100vh - 75px);
+    background-color: #19283f2e;
+}
+.Features .main-title::after{
+content: '';
+width: 140px;
+height: 2px;
+background-color: #33d1cc;
+position: absolute;
+bottom: -20px;
+left: 50%;
+transform: translateX(-50%);
+}
+.Features .icon-holder{
+    height: 200px;
+}
+.icon-holder .number{
+    font-size: 11rem;
+    color: rgba(0, 0, 0, 0.187);
+}
+.icon-holder .icoon{
+    color: #33d1cc;
+}
+.Features .icon-holder i{
+    left: 50%;
+    transform: translateX(-50%);
+}
+.row{
+    width: 100%;
+}
+.our-work .main-title::after{
+    content: '';
+    width: 140px;
+    height: 2px;
+    background-color: #33d1cc;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+  .list ul li{
+       list-style: none;
+    }
+    .list ul li a{
+        text-decoration: none;
+        padding: 0.5rem 1rem;
+        color: black;
+        font-weight: bold;
+    }
+    .list ul li a:hover{
+        color: rgb(226, 43, 107);
+    }
+    .our-work .box{
+        padding: 5px;
+        overflow: hidden;
+        position: relative;
+    }
+    .our-work .box::before{
+        content: 'Application';
+        position: absolute;
+        background-color: #33d1cc89;
+        width: calc(100% - 10px);
+        height: calc(100% - 10px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        font-weight: bold;
+        color: #fff;
+        transition: 0.4s;
+        transform: translateX(calc(-100% - 5px));
+    }
+    .our-work .box:hover::before{
+        transform: translateX(0);
+    }
+    .stuff .main-title::after{
+        content: '';
+        width: 140px;
+        height: 2px;
+        background-color: #33d1cc;
+        position: absolute;
+        bottom: -20px;
+        left: 50%;
+        transform: translateX(-50%);
+        }
+        .Start-project{
+            width: 100%;
+            height: 40vh;
+            background-color: #19283f;
+        }
+        .blog .main-title::after{
+            content: '';
+            width: 140px;
+            height: 2px;
+            background-color: #33d1cc;
+            position: absolute;
+            bottom: -20px;
+            left: 50%;
+            transform: translateX(-50%);
+            }
+            .cards-blog .row .card {
+                margin: 5px;
+            }
+            .Subscribe{
+                width: 100%;
+                height: 120px;
+            }
+            .footer{
+                
+                width: 100%;
+                background-color: #19283f;
+            }
+            .icons i{
+                margin-left: 10px;
+                margin-top: 20px;
+            }
